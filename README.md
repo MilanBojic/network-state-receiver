@@ -40,10 +40,17 @@ Using is very simple. Create new instace of NetworkingReceiver in your module/ac
 Example when attach in your activity
  
 /**
+
  *@param NetworkType when you attach on changes, you will get activ network type, that may be the type of ENetworkType(Wifi, Mobile, None)
+
  */
+
 *val mNetworkStateReceiver = NetworkStateReceiver(this)
+
  mNetworkStateReceiver.publishSubjectNetworking.subscribe({ networkType -> **somethingDo()**})*
+
+ 
+ ![test image size](https://github.com/MilanBojic/networkstatereceiver/blob/master/image1.png)
 
 
 
