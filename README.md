@@ -37,21 +37,20 @@ This will run the app on your device. You may need to download a newer version o
 ## Using Networking Receiver
 Using is very simple. Create new instace of NetworkingReceiver in your module/activity and attach to changes.
 
-Example when attach in your activity
+Example when attach in your **activity**
  
 /**
 
- *@param NetworkType when you attach on changes, you will get activ network type, that may be the type of ENetworkType(Wifi, Mobile, None)
+ ***@param NetworkType** when you attach on changes, you will get activ network type, that may be the type of ENetworkType(Wifi, Mobile, None)
 
  */
 
-*val mNetworkStateReceiver = NetworkStateReceiver(this)
+*val **mNetworkStateReceiver** = **NetworkStateReceiver(this)**
 
  mNetworkStateReceiver.publishSubjectNetworking.subscribe({ networkType -> **somethingDo()**})*
 
  
  ![test image size](https://github.com/MilanBojic/networkstatereceiver/blob/master/image1.png)
-
 
 
 
