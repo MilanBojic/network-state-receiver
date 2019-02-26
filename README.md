@@ -35,7 +35,7 @@ This will run the app on your device. You may need to download a newer version o
 
 
 ## Using Networking Receiver
-Using is very simple. Create new instace of NetworkingReceiver in your module/activity and attach to changes.
+Using is very simple. Create new instance of NetworkReceiver in your module/activity and attach to changes.
 
 ## Example to observe changes:
 
