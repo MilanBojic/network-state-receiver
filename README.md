@@ -47,7 +47,7 @@ Example when attach in your **activity**
 
 val **mNetworkStateReceiver** = **NetworkStateReceiver(this)**
 
-*mNetworkStateReceiver.publishSubjectNetworking.subscribe({ networkType -> **somethingDo()**})*
+***mNetworkStateReceiver.publishSubjectNetworking.subscribe({ networkType -> **somethingDo()**})***
 
  ![test image size](https://github.com/MilanBojic/network-state-receiver/blob/master/image1.png)
 
