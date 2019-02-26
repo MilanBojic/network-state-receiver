@@ -45,7 +45,7 @@ val **mNetworkStateReceiver** = **NetworkStateReceiver(this)**
 
 ***mNetworkStateReceiver.publishSubjectNetworking.subscribe({ networkType -> **somethingDo()**})***
 
- **@param NetworkType** when you attach on changes, you will get activ network type, that may be the type of ENetworkType(**Wifi, Mobile, None**)
+ **@param NetworkType** when you attach on changes, you will get active network type, that may be the type of ENetworkType(**Wifi, Mobile, None**)
 
 
  ![test image size](https://github.com/MilanBojic/network-state-receiver/blob/master/image1.png)
