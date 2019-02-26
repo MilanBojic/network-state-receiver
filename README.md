@@ -41,7 +41,7 @@ Using is very simple. Create new instance of NetworkReceiver in your module/acti
 
 
 
-val **mNetworkStateReceiver** = **NetworkStateReceiver(this)**
+val **mNetworkStateReceiver** = **NetworkStateReceiver(getContext())**
 
 ***mNetworkStateReceiver.publishSubjectNetworking.subscribe({ networkType -> **somethingDo()**})***
 
