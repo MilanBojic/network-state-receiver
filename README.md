@@ -38,6 +38,7 @@ This will run the app on your device. You may need to download a newer version o
 Using is very simple. Create new instace of NetworkingReceiver in your module/activity and attach to changes.
 
 Example when attach in your **activity**
+
  
 /**
 
@@ -45,12 +46,12 @@ Example when attach in your **activity**
 
  */
 
-*val **mNetworkStateReceiver** = **NetworkStateReceiver(this)**
 
- mNetworkStateReceiver.publishSubjectNetworking.subscribe({ networkType -> **somethingDo()**})*
+val **mNetworkStateReceiver** = **NetworkStateReceiver(this)**
+
+mNetworkStateReceiver.publishSubjectNetworking.subscribe({ networkType -> **somethingDo()**})
 
  
- ![test image size](https://github.com/MilanBojic/networkstatereceiver/blob/master/image1.png)
 
 
 
